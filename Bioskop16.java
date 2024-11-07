@@ -20,11 +20,11 @@ public class Bioskop16 {
         for (String[] barispenonton : penonton) {
             System.out.println("Panjang Baris: " + barispenonton.length);
         }
-        
+
         System.out.println("Penonton Baris ke-3: ");
 
-        for (int i = 0; penonton[2].length < 10; i++) {
-            System.out.println(penonton[2][i]);
+        for (String i : penonton[2]) {
+            System.out.println(i);
         }
     }
 }
